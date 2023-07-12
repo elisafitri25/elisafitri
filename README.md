@@ -6,13 +6,13 @@ My personal website is [eli](eli.com)
 
 In Home Displays navigation bar, image and footer.
 
-![home.png](https://postimg.cc/PvLrZs9y)
+[![home.png](https://i.postimg.cc/Rhd3kvTk/home.png)](https://postimg.cc/PvLrZs9y)
 
 ## About
 
 In about displays about my self, my photo, navigation bar and footer.
 
-![profil.png](https://postimg.cc/B8cLpKpz)
+[![profil.png](https://i.postimg.cc/KYCPZ7Mm/profil.png)](https://postimg.cc/B8cLpKpz)
 
 ## Contact 
 
