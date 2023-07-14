@@ -1,6 +1,6 @@
 # WELCOME
 
-My personal website is [eli](eli.com)
+My personal website is [eli](eli.com).
 
 ## Home
 
@@ -22,5 +22,6 @@ In contact display my email
 
 My personal website [figma link](https://www.figma.com/file/Tm3XTIoVJI4JZ35OI9WUeZ/Untitled?type=design&node-id=0%3A1&mode=design&t=mAnDJx09ZDcj4INU-1)
 
-[]([my personal web html](index.html))
+## Html
+[my personal web html](file:///C:/Users/ELISA/OneDrive/Dokumen/pelatihan/elisafitri/index.html)
 
