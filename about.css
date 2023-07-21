@@ -1,41 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Stalemate&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body{
-    background-color: rgb(112, 112, 112);
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Stalemate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background-color: rgb(112, 112, 112);
 }
-nav{
-    background-image: url('about.jpg');
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-size: 1230px;
+nav {
+  background-image: url("about.jpg");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: 1230px;
 }
-.Logo{
-    font-family: 'Stalemate', cursive;
-    font-size: 30px;
-    color: azure;
+.Logo {
+  font-family: "Stalemate", cursive;
+  font-size: 30px;
+  color: azure;
 }
-.nav   {
-    color: black;
-}  
-.about{
-    font-family: 'Seymour One', sans-serif;
-    color: azure;
+.nav {
+  color: black;
 }
-.my{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: azure;
+.about {
+  font-family: "Seymour One", sans-serif;
+  color: azure;
 }
-.footer{
-    color: azure;
+.my {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: azure;
 }
-.img{
-    filter: brightness(0) invert(1);
+.footer {
+  color: azure;
+}
+.img {
+  filter: brightness(0) invert(1);
 }
 .icon {
-    width: 25px;
-    height: 25px;
-    margin: 5px;
-    cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  cursor: pointer;
 }

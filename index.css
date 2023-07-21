@@ -1,53 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Stalemate&display=swap');
-body{
-    background-color: black;
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-size: 1230px;
-
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Stalemate&display=swap");
+body {
+  background-color: black;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: 1230px;
 }
-.Logo{
-    font-family: 'Stalemate', cursive;
-    font-size: 30px;
-    color: azure;
+.Logo {
+  font-family: "Stalemate", cursive;
+  font-size: 30px;
+  color: azure;
 }
-.nav   {
-    color: black;
+.nav {
+  color: black;
 }
-.WELCOME{
-    font-size: 70px;
-    text-align: left ;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: aliceblue;
+.WELCOME {
+  font-size: 70px;
+  text-align: left;
+  font-family: "Annie Use Your Telescope", cursive;
+  color: aliceblue;
 }
-.head{
-    font-size: 60px;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: aliceblue;
+.head {
+  font-size: 60px;
+  font-family: "Annie Use Your Telescope", cursive;
+  color: aliceblue;
 }
-.quote{
-    color: azure;
-    font-family: 'Annie Use Your Telescope', cursive;
-    font-size: 30px;
-    text-align: center;
+.quote {
+  color: azure;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 30px;
+  text-align: center;
 }
-.footer{
-    color: azure;
+.footer {
+  color: azure;
 }
-main{
-    background-image:  url('background2.jpg');
-      background-position: center bottom;
-      background-size: 1230px;
-      background-repeat: no-repeat; 
+main {
+  background-image: url("background2.jpg");
+  background-position: center bottom;
+  background-size: 1230px;
+  background-repeat: no-repeat;
 }
-.img{
-    filter: brightness(0) invert(1);
+.img {
+  filter: brightness(0) invert(1);
 }
 .icon {
-    width: 25px;
-    height: 25px;
-    margin: 5px;
-    cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  cursor: pointer;
 }
