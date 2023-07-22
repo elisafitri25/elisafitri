@@ -7,6 +7,12 @@ body {
   background-position: top left, bottom right;
   background-size: 1230px;
 }
+main {
+  background-image: url("background2.jpg");
+  background-position: center bottom;
+  background-size: 1230px;
+  background-repeat: no-repeat;
+}
 .Logo {
   font-family: "Stalemate", cursive;
   font-size: 30px;
@@ -35,12 +41,7 @@ body {
 .footer {
   color: azure;
 }
-main {
-  background-image: url("background2.jpg");
-  background-position: center bottom;
-  background-size: 1230px;
-  background-repeat: no-repeat;
-}
+
 .img {
   filter: brightness(0) invert(1);
 }
@@ -49,4 +50,38 @@ main {
   height: 25px;
   margin: 5px;
   cursor: pointer;
+}
+/* Media queries untuk tampilan responsif pada perangkat seluler (misalnya, lebar maksimum 600px) */
+@media screen and (max-width: 600px) {
+  .WELCOME {
+    font-size: 28px;
+  }
+
+  .head {
+    font-size: 18px;
+  }
+
+  .quote {
+    font-size: 16px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav {
+    margin: 5px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+
+  .img {
+    width: 8px;
+    height: 8px;
+  }
 }
