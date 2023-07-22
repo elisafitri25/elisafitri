@@ -84,3 +84,6 @@ button:hover {
 .footer {
   color: azure;
 }
+.img {
+  filter: brightness(0) invert(1);
+}
