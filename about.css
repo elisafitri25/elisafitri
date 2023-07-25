@@ -3,71 +3,214 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   background-color: rgb(112, 112, 112);
-}
-nav {
+
   background-image: url("about.jpg");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  background-size: 1230px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60%;
-  z-index: -1;
-  opacity: 0.7;
+  background-size: 1265px;
 }
+
 img {
   max-width: 250px;
   order: -1;
-  margin-right: 20px;
+  margin-left: 50px;
 }
-
+header {
+  padding: 0px 0 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
 .Logo {
   font-family: "Stalemate", cursive;
   font-size: 35px;
   color: azure;
 }
+.nav-list li {
+  display: inline-block;
+}
 .nav {
+  margin-left: 100px;
+  display: flex;
+  gap: 50px;
   color: black;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
 .navbar {
+  margin-left: 700px;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   color: azure;
 }
 
-.about {
-  font-family: "Seymour One", sans-serif;
+/* Grid Container */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dua kolom dengan lebar yang sama */
+  gap: 20px; /* Ruang antara kolom */
+  align-items: center;
   color: azure;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  margin-left: auto;
+  font-family: "Poppins", sans-serif;
 }
+
+/* Styles for the 'ABOUT ME!' header */
+.about {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  grid-column: span 2; /* Menggunakan 2 kolom untuk judul agar menyebar di kedua kolom */
+}
+
+/* Styles for the photo container */
+.photo img {
+  width: 200px;
+  margin-left: 250px;
+}
+
+/* Styles for the paragraph */
 .my {
   font-size: 16px;
   line-height: 1.5;
-  max-width: 600px;
-  margin: 0 auto;
+  margin-right: 130px;
   font-family: "Poppins", sans-serif;
   color: azure;
-  flex: 1;
-  margin-top: 10px;
 }
 
-.footer {
-  color: azure;
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 10px;
+  padding: 10px;
 }
+.social-media a i {
+  color: #f1f1f1;
+  font-size: 30px;
+}
+.connect {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #f1f1f1;
+  margin-left: 40px;
+}
+
+.copyright {
+  color: rgb(236, 241, 241);
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
 .img {
   filter: brightness(0) invert(1);
 }
 .icon {
-  width: 25px;
-  height: 25px;
-  margin: 5px;
+  width: 15px;
+  height: 215px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  /* General styles */
+  body {
+    background-color: rgb(112, 112, 112);
+    background-image: url("about.jpg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 450px; /* Ubah nilai background-size agar sesuai dengan layar maksimal 450px */
+    color: azure;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+  /* Header styles */
+  header {
+    padding: 10px 0; /* Ubah padding agar sesuai dengan layar maksimal 450px */
+    display: flex;
+    flex-wrap: wrap; /* Ubah flex-wrap agar elemen berada dalam beberapa baris */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .about {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .photo img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .my {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 5px;
+    text-align: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-list li {
+    display: inline;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .social-media {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .social-media a {
+    font-size: 24px;
+    color: #333;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+
+  .img {
+    width: 10px;
+    height: 10px;
+    margin-bottom: -2px;
+  }
 }
