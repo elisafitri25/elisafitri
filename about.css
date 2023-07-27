@@ -116,3 +116,115 @@ header {
   height: 215px;
   cursor: pointer;
 }
+
+/* Styling untuk layar smartphone (lebar < 421px) */
+@media screen and (max-width: 420px) {
+  body {
+    background-color: rgb(112, 112, 112);
+    background-image: url("about.jpg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 421px;
+  }
+
+  img {
+    max-width: 100%;
+    order: -1;
+    margin-left: 50px;
+  }
+  header {
+    padding: 0px 0 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Logo {
+    font-family: "Stalemate", cursive;
+    font-size: 35px;
+    color: azure;
+  }
+
+  .nav-list li {
+    display: inline-block;
+  }
+
+  .nav {
+    margin-left: 100px;
+    display: flex;
+    gap: 50px;
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .navbar {
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: azure;
+  }
+
+  /* Hapus grid kolom untuk tampilan layar smartphone */
+  .container {
+    display: block;
+  }
+
+  /* Styles for the 'ABOUT ME!' header */
+  .about {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    grid-column: initial;
+  }
+
+  /* Styles for the photo container on smartphones */
+  .photo img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* Styles for the paragraph on smartphones */
+  .my {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 0;
+    font-family: "Poppins", sans-serif;
+    color: azure;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .social-media a i {
+    color: #f1f1f1;
+    font-size: 30px;
+  }
+  .connect {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #f1f1f1;
+    margin-left: 40px;
+  }
+
+  .copyright {
+    color: rgb(236, 241, 241);
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .img {
+    filter: brightness(0) invert(1);
+  }
+  .icon {
+    width: 15px;
+    height: 215px;
+    cursor: pointer;
+  }
+}

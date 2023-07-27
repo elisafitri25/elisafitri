@@ -179,34 +179,34 @@ header {
     justify-content: space-between;
   }
 
-  .Logo {
+  header {
+    padding: 0px 0 0px;
     display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Logo {
     font-family: "Stalemate", cursive;
-    font-size: 20px; /* Ubah ukuran font untuk logo */
+    font-size: 25px; /* Ubah ukuran font untuk logo */
     color: azure;
   }
 
   .nav-list li {
-    display: inline; /* Atur agar daftar menu berada dalam satu baris (inline) */
+    display: inline; /* Sembunyikan daftar menu di header */
   }
 
-  /* Hapus display: none; pada .nav agar menu navigasi tampil */
   .nav {
-    display: flex; /* Atur agar menu navigasi tampil dalam satu baris (inline-flex) */
-    gap: 20px; /* Tambahkan jarak antara elemen pada menu navigasi */
-    color: black;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    align-items: center; /* Pusatkan elemen secara vertikal dalam menu navigasi */
+    flex: auto; /* Sembunyikan menu navigasi di header */
   }
 
-  /* Hapus display: none; pada .navbar agar teks "Home" tampil */
   .navbar {
+    margin-right: 150px; /* Ubah margin kiri untuk teks "Home" di header */
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     color: azure;
   }
-
   .WELCOME {
     margin-left: 0; /* Hapus margin kiri untuk judul 'WELCOME !' */
     font-size: 30px; /* Ubah ukuran font untuk judul 'WELCOME !' */

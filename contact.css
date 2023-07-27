@@ -165,7 +165,8 @@ button {
 
   /* Adjust position of the button */
   button {
-    margin-left: 85%;
+    margin: auto;
     width: 60%;
+    cursor: pointer;
   }
 }
