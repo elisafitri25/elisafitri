@@ -141,32 +141,38 @@ button {
   margin-left: 90%;
   margin-top: 50px;
 }
-/* Additional Styles for tablet (width between 421px and 768px) */
+/* Media query for smartphones (up to 420px width) */
+@media screen and (max-width: 420px) {
+  body {
+    background-size: cover; /* Adjust background image sizing for better display on small screens */
+  }
 
-@media screen and (min-width: 421px) and (max-width: 768px) {
-  /* Adjust font size and spacing for navigation elements */
+  .Logo {
+    font-size: 24px; /* Reduce logo font size for better fit on mobile */
+  }
+
   .nav {
-    font-size: 18px;
-    gap: 30px;
+    gap: 20px; /* Reduce gap between nav items on mobile */
   }
 
-  /* Adjust font size for the 'for enquiries' paragraph */
+  .navbar {
+    font-size: 16px; /* Reduce font size for better readability on mobile */
+  }
+
+  .p {
+    font-size: 28px; /* Reduce heading font size for better fit on mobile */
+  }
+
   .enquires {
-    font-size: 12px;
+    font-size: 12px; /* Reduce font size for better fit on mobile */
   }
 
-  /* Adjust width and margin for form elements */
-  form,
-  .right-column {
-    margin: 0;
-    padding: 10px;
-    width: 80%;
+  .social-media a i {
+    font-size: 24px; /* Reduce social media icon size for better fit on mobile */
   }
 
-  /* Adjust position of the button */
-  button {
-    margin: auto;
-    width: 60%;
-    cursor: pointer;
+  .connect {
+    font-size: 16px; /* Reduce font size for better fit on mobile */
+    margin-left: 20px; /* Reduce the margin for better spacing on mobile */
   }
 }
