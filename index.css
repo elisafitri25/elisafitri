@@ -1,19 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Stalemate&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* Styling untuk layar laptop (lebar > 768px) */
 body {
   background-color: black;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  background-size: 1265px;
+  background-size: 1270px;
 }
+
 main {
   background-image: url("background2.jpg");
   background-position: center bottom;
   background-size: 1230px;
   background-repeat: no-repeat;
 }
+
 header {
   padding: 0px 0 0px;
   display: flex;
@@ -21,14 +24,17 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 .Logo {
   font-family: "Stalemate", cursive;
   font-size: 35px;
   color: azure;
 }
+
 .nav-list li {
   display: inline-block;
 }
+
 .nav {
   margin-left: 100px;
   display: flex;
@@ -37,6 +43,7 @@ header {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
+
 .navbar {
   margin-left: 70px;
   font-size: 20px;
@@ -51,18 +58,21 @@ header {
   font-family: "Annie Use Your Telescope", cursive;
   color: aliceblue;
 }
+
 .head {
   margin-left: 200px;
   font-size: 60px;
   font-family: "Annie Use Your Telescope", cursive;
   color: aliceblue;
 }
+
 .quote {
   color: azure;
   font-family: "Annie Use Your Telescope", cursive;
   font-size: 30px;
   text-align: center;
 }
+
 .social-media {
   display: flex;
   justify-content: center;
@@ -70,17 +80,18 @@ header {
   margin-top: 10px;
   padding: 10px;
 }
+
 .social-media a i {
   color: #f1f1f1;
   font-size: 30px;
 }
+
 .connect {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   color: #f1f1f1;
   margin-left: 40px;
 }
-
 .copyright {
   color: rgb(236, 241, 241);
   font-family: "Poppins", sans-serif;
@@ -95,4 +106,138 @@ header {
   width: 15px;
   height: 215px;
   cursor: pointer;
+}
+
+/* Styling untuk layar tablet (lebar 421px hingga 768px) */
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  body {
+    background-size: 900px; /* Ubah ukuran background agar sesuai dengan tablet */
+  }
+
+  main {
+    background-size: 800px; /* Ubah ukuran background konten agar sesuai dengan tablet */
+  }
+
+  .WELCOME {
+    font-size: 40px; /* Ubah ukuran font untuk judul 'WELCOME !' */
+    text-align: center; /* Pusatkan teks judul 'WELCOME !' */
+    margin-left: 0; /* Hapus margin kiri untuk judul 'WELCOME !' */
+  }
+
+  .head {
+    font-size: 32px; /* Ubah ukuran font untuk teks 'Find The Information You Need On' */
+    text-align: center; /* Pusatkan teks 'Find The Information You Need On' */
+    margin-left: 0; /* Hapus margin kiri untuk teks 'Find The Information You Need On' */
+  }
+
+  .quote {
+    font-size: 20px; /* Ubah ukuran font untuk kutipan */
+  }
+
+  /* Pusatkan ikon media sosial */
+  .social-media {
+    justify-content: center;
+  }
+
+  /* Atur ukuran ikon media sosial pada layar tablet */
+  .social-media a i {
+    font-size: 24px;
+  }
+
+  .connect {
+    font-size: 16px; /* Ubah ukuran font untuk teks 'connect with me' */
+    margin-left: 20px; /* Ubah margin kiri untuk teks 'connect with me' */
+  }
+
+  .icon {
+    width: 12px; /* Ubah ukuran ikon pada layar tablet */
+    height: 150px; /* Ubah ukuran ikon pada layar tablet */
+  }
+}
+
+/* Styling untuk layar smartphone (lebar < 421px) */
+@media screen and (max-width: 420px) {
+  body {
+    background-color: black;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 600px; /* Ubah ukuran background agar sesuai dengan smartphone */
+  }
+
+  main {
+    background-image: url("background2.jpg");
+    background-position: center bottom;
+    background-size: 450px; /* Ubah ukuran background konten agar sesuai dengan smartphone */
+  }
+
+  header {
+    padding: 0px 0 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Logo {
+    display: flex;
+    font-family: "Stalemate", cursive;
+    font-size: 20px; /* Ubah ukuran font untuk logo */
+    color: azure;
+  }
+
+  .nav-list li {
+    display: inline; /* Atur agar daftar menu berada dalam satu baris (inline) */
+  }
+
+  /* Hapus display: none; pada .nav agar menu navigasi tampil */
+  .nav {
+    display: flex; /* Atur agar menu navigasi tampil dalam satu baris (inline-flex) */
+    gap: 20px; /* Tambahkan jarak antara elemen pada menu navigasi */
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    align-items: center; /* Pusatkan elemen secara vertikal dalam menu navigasi */
+  }
+
+  /* Hapus display: none; pada .navbar agar teks "Home" tampil */
+  .navbar {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: azure;
+  }
+
+  .WELCOME {
+    margin-left: 0; /* Hapus margin kiri untuk judul 'WELCOME !' */
+    font-size: 30px; /* Ubah ukuran font untuk judul 'WELCOME !' */
+    text-align: center; /* Pusatkan teks judul 'WELCOME !' */
+  }
+
+  .head {
+    margin-left: 0; /* Hapus margin kiri untuk teks 'Find The Information You Need On' */
+    font-size: 24px; /* Ubah ukuran font untuk teks 'Find The Information You Need On' */
+    text-align: center; /* Pusatkan teks 'Find The Information You Need On' */
+  }
+
+  .quote {
+    font-size: 18px; /* Ubah ukuran font untuk kutipan */
+  }
+
+  .social-media {
+    justify-content: center; /* Pusatkan ikon media sosial */
+  }
+
+  .social-media a i {
+    font-size: 24px; /* Ubah ukuran ikon media sosial pada layar smartphone */
+  }
+
+  .connect {
+    font-size: 16px; /* Ubah ukuran font untuk teks 'connect with me' */
+    margin-left: 20px; /* Ubah margin kiri untuk teks 'connect with me' */
+  }
+
+  .icon {
+    width: 12px; /* Ubah ukuran ikon pada layar smartphone */
+    height: 150px; /* Ubah ukuran ikon pada layar smartphone */
+  }
 }

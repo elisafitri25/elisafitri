@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Stalemate&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* Styling untuk layar laptop (lebar > 768px) */
 body {
   background-color: rgb(112, 112, 112);
 
   background-image: url("about.jpg");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  background-size: 1265px;
+  background-size: 1270px;
 }
 
 img {
@@ -22,14 +23,17 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 .Logo {
   font-family: "Stalemate", cursive;
   font-size: 35px;
   color: azure;
 }
+
 .nav-list li {
   display: inline-block;
 }
+
 .nav {
   margin-left: 100px;
   display: flex;
@@ -38,6 +42,7 @@ header {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
+
 .navbar {
   margin-left: 70px;
   font-size: 20px;
@@ -110,108 +115,4 @@ header {
   width: 15px;
   height: 215px;
   cursor: pointer;
-}
-
-@media screen and (max-width: 450px) {
-  /* General styles */
-  body {
-    background-color: rgb(112, 112, 112);
-    background-image: url("about.jpg");
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-size: 450px; /* Ubah nilai background-size agar sesuai dengan layar maksimal 450px */
-    color: azure;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-  }
-  /* Header styles */
-  header {
-    padding: 10px 0; /* Ubah padding agar sesuai dengan layar maksimal 450px */
-    display: flex;
-    flex-wrap: wrap; /* Ubah flex-wrap agar elemen berada dalam beberapa baris */
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .about {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .photo img {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .my {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 10px 5px;
-    text-align: center;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f1f1f1;
-    padding: 10px;
-  }
-
-  .logo h1 {
-    font-family: "Stalemate", cursive;
-    margin: 0;
-    font-size: 24px;
-  }
-
-  nav {
-    display: flex;
-    gap: 20px;
-  }
-
-  .nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .nav-list li {
-    display: inline;
-  }
-
-  .nav a {
-    text-decoration: none;
-    color: #333;
-  }
-
-  .social-media {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-  }
-
-  .social-media a {
-    font-size: 24px;
-    color: #333;
-  }
-
-  footer {
-    text-align: center;
-    margin-top: 30px;
-    padding: 20px;
-    background-color: #f1f1f1;
-  }
-
-  .img {
-    width: 10px;
-    height: 10px;
-    margin-bottom: -2px;
-  }
 }

@@ -7,7 +7,7 @@ body {
   background-image: url("contact.jpg");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  background-size: 1265px;
+  background-size: 1270px;
 }
 header {
   padding: 0px 0 0px;
@@ -140,4 +140,32 @@ button {
   width: 50%;
   margin-left: 90%;
   margin-top: 50px;
+}
+/* Additional Styles for tablet (width between 421px and 768px) */
+
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  /* Adjust font size and spacing for navigation elements */
+  .nav {
+    font-size: 18px;
+    gap: 30px;
+  }
+
+  /* Adjust font size for the 'for enquiries' paragraph */
+  .enquires {
+    font-size: 12px;
+  }
+
+  /* Adjust width and margin for form elements */
+  form,
+  .right-column {
+    margin: 0;
+    padding: 10px;
+    width: 80%;
+  }
+
+  /* Adjust position of the button */
+  button {
+    margin-left: 85%;
+    width: 60%;
+  }
 }
