@@ -39,7 +39,7 @@ header {
   font-family: "Poppins", sans-serif;
 }
 .navbar {
-  margin-left: 700px;
+  margin-left: 70px;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   color: azure;
@@ -166,6 +166,7 @@ header {
   }
 
   .logo h1 {
+    font-family: "Stalemate", cursive;
     margin: 0;
     font-size: 24px;
   }

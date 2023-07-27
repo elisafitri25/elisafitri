@@ -34,7 +34,7 @@ header {
   font-family: "Poppins", sans-serif;
 }
 .navbar {
-  margin-left: 700px;
+  margin-left: 70px;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   color: azure;
@@ -133,11 +133,11 @@ form {
 
 button {
   background-color: #0f1010;
-  color: white;
+  color: rgb(243, 243, 243);
   cursor: pointer;
   padding: 10px;
   border: 1px solid #ccc;
   width: 50%;
-  margin-left: 100%;
+  margin-left: 90%;
   margin-top: 50px;
 }

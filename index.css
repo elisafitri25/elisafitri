@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Stalemate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   background-color: black;
   background-image: url("background.jpg");
@@ -37,11 +38,12 @@ header {
   font-family: "Poppins", sans-serif;
 }
 .navbar {
-  margin-left: 700px;
+  margin-left: 70px;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   color: azure;
 }
+
 .WELCOME {
   margin-left: 250px;
   font-size: 70px;
@@ -93,70 +95,4 @@ header {
   width: 15px;
   height: 215px;
   cursor: pointer;
-}
-/* Media Query untuk smartphone */
-@media screen and (max-width: 480px) {
-  body {
-    background-size: 600px;
-  }
-
-  main {
-    background-size: 600px;
-  }
-
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-  .Logo {
-    font-family: "Stalemate", cursive;
-    font-size: 10px;
-    color: azure;
-  }
-  .nav-list li {
-    display: inline-block;
-  }
-  .nav {
-    margin-left: 5px;
-    display: flex;
-    gap: 5px;
-    color: black;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-  }
-  .nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .navbar {
-    display: block;
-    margin: 10px;
-  }
-  .WELCOME {
-    margin-left: 30px;
-    font-size: 40px;
-    text-align: left;
-    font-family: "Annie Use Your Telescope", cursive;
-    color: aliceblue;
-  }
-
-  .head {
-    margin-left: 40px;
-    font-size: 20px;
-    font-family: "Annie Use Your Telescope", cursive;
-    color: aliceblue;
-  }
-
-  .quote {
-    font-size: 18px;
-  }
-  .connect {
-    font-size: 10px;
-    font-family: "Poppins", sans-serif;
-    color: #f1f1f1;
-    margin-left: 40px;
-  }
 }
